@@ -1,7 +1,7 @@
 1 - Creo una lista delle cose che mancano nel frigo
 2 - Aggiungo nella lista le crocchette di Ricky
 3 - Mi reco al supermercato
-4 - Cerco gli oggetti scritti nella lista iniziando dal primo rimasto
+4 - Per ogni oggetto della lista, finchè non la termino, lo cerco tra gli scaffali
     SE girando tra gli scaffali lo trovo
         A - lo aggiungo al carrello
         B - lo elimino dalla lista
@@ -10,36 +10,6 @@
                 a - torno al punto 4
             ALTRIMENTI
                 a - vado al punto 5
-    ALTRIMENTI 
-        A - controllo se ho degli oggetti rimanenti nella lista
-            SE mi rimangono altri oggetti nella lista 
-                a - torno al punto 4
-            ALTRIMENTI
-                a - vado al punto 5
-5 - Mi dirigo alla cassa
-6 - Uso i coupon per pagare
-    SE mi bastano per pagare
-        A - proseguo al punto 7
-    ALTRIMENTI 
-        A - uso i contanti
-            SE mi bastano
-                a - proseguo al punto 7
-            ALTRIMENTI
-                a - poso gli snack extra
-7 - Torno a casa
-
-
-SECONDA VERSIONE:
-1 - Creo una lista delle cose che mancano nel frigo
-2 - Aggiungo nella lista le crocchette di Ricky
-3 - Mi reco al supermercato
-4 - Cerco gli oggetti scritti nella lista iniziando dal primo rimasto
-    SE girando tra gli scaffali lo trovo
-        A - lo aggiungo al carrello
-            SE l'ho aggiunto
-                a - lo elimino dalla lista
-            ALTRIMENTI 
-                a - torno al punto 4
     ALTRIMENTI 
         A - controllo se ho degli oggetti rimanenti nella lista
             SE mi rimangono altri oggetti nella lista 
